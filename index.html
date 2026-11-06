@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The Laundry Spot in Durham, North Carolina. Convenient self-service laundry and wash-and-fold services.">
+  <meta name="theme-color" content="#0b5f91">
+  <title>The Laundry Spot | Durham, NC</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="The Laundry Spot home">
+      <img class="brand-logo" src="assets/laundry-spot-logo.png" alt="The Laundry Spot">
+    </a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav">Menu</button>
+    <nav id="main-nav" class="main-nav">
+      <a href="#services">Services</a><a href="#wash-fold">Wash &amp; Fold</a>
+      <a href="#visit">Location &amp; Hours</a><a class="nav-cta" href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">YOUR NEIGHBORHOOD LAUNDRY DESTINATION</p>
+        <h1>A fresher, easier<br><span>laundry day.</span></h1>
+        <p class="hero-intro">Stop by The Laundry Spot in Durham for convenient laundry care. Take care of a load yourself or let us help with wash-and-fold service.</p>
+        <div class="hero-actions">
+          <a class="button button-light" href="#services">Explore services</a>
+          <a class="text-link" href="#visit">Plan your visit <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+      <div class="hero-art" role="img" aria-label="Illustration of clean folded laundry and bubbles">
+        <div class="bubble bubble-one"></div><div class="bubble bubble-two"></div>
+        <div class="towel towel-back"></div><div class="towel towel-front"></div>
+        <div class="sparkle">✦</div>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="Our services">
+      <span>SELF-SERVICE LAUNDRY</span><i></i><span>WASH &amp; FOLD</span><i></i><span>HERE FOR DURHAM</span>
+    </section>
+
+    <section class="section" id="services">
+      <div class="section-heading">
+        <p class="eyebrow">LAUNDRY THAT FITS YOUR DAY</p>
+        <h2>How can we help?</h2>
+        <p>Choose the option that works best for you.</p>
+      </div>
+      <div class="service-grid">
+        <article class="service-card">
+          <div class="service-icon">◉</div><h3>Self-Service Laundry</h3>
+          <p>Bring your laundry in and use our washers and dryers at your own pace.</p>
+          <a href="#visit">Visit our laundromat <span>→</span></a>
+        </article>
+        <article class="service-card featured" id="wash-fold">
+          <div class="service-icon">✧</div><h3>Wash &amp; Fold</h3>
+          <p>Drop off your laundry and let our team take care of the washing, drying and folding.</p>
+          <a href="#contact">Ask about wash &amp; fold <span>→</span></a>
+        </article>
+        <article class="service-card">
+          <div class="service-icon">＋</div><h3>Need something else?</h3>
+          <p>Have a question about a service, a larger load or business laundry needs?</p>
+          <a href="#contact">Get in touch <span>→</span></a>
+        </article>
+      </div>
+    </section>
+
+    <section class="wash-banner">
+      <div class="wash-art"><div class="folded folded-a"></div><div class="folded folded-b"></div><div class="folded folded-c"></div></div>
+      <div><p class="eyebrow">MORE TIME FOR WHAT MATTERS</p><h2>Drop it off.<br>Pick it up fresh.</h2>
+        <p>Ask us about our wash-and-fold service and current turnaround times.</p>
+        <a class="button button-blue" href="#contact">Ask us a question</a>
+      </div>
+    </section>
+
+    <section class="visit-section" id="visit">
+      <div class="section-heading">
+        <p class="eyebrow">COME SEE US</p><h2>Make laundry day simpler.</h2>
+        <p>Find us in Durham, North Carolina.</p>
+      </div>
+      <div class="visit-card">
+        <div><span class="detail-label">ADDRESS</span><p class="detail-value"><a href="https://www.google.com/maps/search/?api=1&amp;query=1019+Holloway+Street+Durham+NC+27701" target="_blank" rel="noopener">1019 Holloway Street, Durham, NC 27701</a></p></div>
+        <div><span class="detail-label">HOURS</span><p class="detail-value">9:00 AM – 8:00 PM, every day</p></div>
+        <div><span class="detail-label">PHONE</span><p class="detail-value"><a href="tel:+19192518955">(919) 251-8955</a></p></div>
+        <p class="setup-note">Washer and dryer prices vary by machine. Please check the price displayed on each machine before starting.</p>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div><p class="eyebrow">WE’RE HERE TO HELP</p><h2>Questions? Let’s talk.</h2>
+        <p>Call or visit The Laundry Spot. We’ll be happy to help you with our services.</p></div>
+      <div class="contact-placeholder"><strong>Call The Laundry Spot</strong><a href="tel:+19192518955">(919) 251-8955</a><span>Open daily, 9:00 AM – 8:00 PM</span><a class="contact-map" href="https://www.google.com/maps/search/?api=1&amp;query=1019+Holloway+Street+Durham+NC+27701" target="_blank" rel="noopener">Get directions →</a></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand brand-footer" href="#home"><img class="brand-logo brand-logo-footer" src="assets/laundry-spot-logo.png" alt="The Laundry Spot"></a>
+    <p>© <span id="year"></span> The Laundry Spot. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
